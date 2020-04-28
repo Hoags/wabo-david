@@ -1,0 +1,27 @@
+
+body{
+	background-color: grey;
+	width: 100%;
+	height: auto;
+	
+}
+
+#welcome-section{
+	height: 100vh;
+	background-color: grey;
+}
+#navbar{
+	position: fixed;
+	top: 0px;
+}
+
+/* @media (max-width: 600px){
+	body{ 
+		background-color: grey;
+}} */
+@media screen and (max-width: 600px) {
+	body{
+	  float: none;
+	  width: 100%;
+	}
+  }
